@@ -1,25 +1,18 @@
-# Name:		    Gurusaran Venkatachalam Rajarajacholan
-# B-Number:	    B01038679
-# Email:		gvenkatachal@binghamton.edu
+Name:		    Gurusaran Venkatachalam Rajarajacholan
+B-Number:	    B01038679
+Email:		gvenkatachal@binghamton.edu
 
-## Language Used: PYTHON
+Language Used: PYTHON
 
-## Dependencies: Python 3.x
 
-## COMMANDS TO COMPILE:
-No compile command
-
-## COMMANDS TO RUN: 
-./run.sh
-
-## Description:
+Description:
 The lexer and parser are designed to tokenize input strings and generate an abstract syntax tree (AST) respectively, based on the grammar rules provided.
 
-## Token Definitions:
+Token Definitions:
 Token definition is the dictionary with token as a key and regex as values, which will be used to tokenize the input strings.
 The TOKEN_DEFINITIONS dictionary contains regular expressions defining different token types.
 
-## Methods:
+Methods:
 LEXER:
 The tokenize() function takes an input string and returns a list of tokens
 Tokenizes input strings based on predefined token definitions.
